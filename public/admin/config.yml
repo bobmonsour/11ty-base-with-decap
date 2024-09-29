@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: bobmonsour/11ty-base-with-decap
+  branch: main # Branch to update (optional; defaults to master)
+  site_domain: https://11ty-base-with-decap.pages.dev/
+  base_url: https://11ty-base-with-decap.pages.dev/
+  auth_endpoint: /api/auth
+media_folder: public/img
+public_folder: public/img
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
