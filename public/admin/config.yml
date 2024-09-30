@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: bobmonsour/11ty-base-with-decap
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
   site_domain: https://11ty-base-with-decap.pages.dev/
   base_url: https://11ty-base-with-decap.pages.dev/
   auth_endpoint: /api/auth
