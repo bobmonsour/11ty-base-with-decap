@@ -2,6 +2,8 @@
 
 I HAVE MODIFIED THIS REPO TO EXPERIMENT WITH INTEGRATING THE DECAP CMS.
 
+PART OF THIS EXPERIMENT INVOLVES DEPLOYING THE SITE TO CLOUDFLARE PAGES.
+
 AS OF SEP 30, 2024, I HAVE ACHIEVED MINOR SUCCESS. I'LL PROBABLY WRITE A BLOG POST ABOUT IT.
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v2.0 release](https://www.11ty.dev/blog/eleventy-v2/)).
