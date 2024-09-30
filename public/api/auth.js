@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 export async function onRequest(context) {
   const {
     request, // same as existing Worker API
